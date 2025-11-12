@@ -6,8 +6,8 @@ export default function Login() {
     return (
         <LoginContainer>
             <Navegacao>
-                <Logo source={require('../../assets/virteailogo.png')}/>
-                <Menu source={require('../../assets/voltarmobile.png')}/>
+                <Logo source={require('../../assets/images/virteailogo.png')}/>
+                <Menu source={require('../../assets/images/voltarmobile.png')}/>
             </Navegacao>
             <ContainerLog>
                 <TextoLogin>Login</TextoLogin>

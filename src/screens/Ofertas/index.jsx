@@ -49,11 +49,11 @@ export default function Ofertas() {
             <OfertasContainer>
                 {/* Topo */}
                 <Navegacao>
-                    <Logo source={require('../../assets/virteailogo.png')}/>
-                    <Menu source={require('../../assets/menu.png')}/>
+                    <Logo source={require('../../assets/images/virteailogo.png')}/>
+                    <Menu source={require('../../assets/images/menu.png')}/>
                 </Navegacao>
 
-                <HomeImage source={require('../../assets/ofertasimagem.png')}/>
+                <HomeImage source={require('../../assets/images/ofertasimagem.png')}/>
 
                 <TituloOfertas>Escolha o Seu Plano Ideal:</TituloOfertas>
                 <Paragrafo>
@@ -68,23 +68,23 @@ export default function Ofertas() {
                     <Descricao>Óculos VR adaptado por assinatura</Descricao>
                     <CardBeneficios>
                         <ContainerBeneficios>
-                        <Check source={require('../../assets/check.png')}/>
+                        <Check source={require('../../assets/images/check.png')}/>
                         <BeneficiosPersonalizado>1 óculos VR adaptado por mês</BeneficiosPersonalizado>
                         </ContainerBeneficios>
                         <ContainerBeneficios>
-                            <Check source={require('../../assets/check.png')}/>
+                            <Check source={require('../../assets/images/check.png')}/>
                             <BeneficiosPersonalizado>Troca mensal de modelo</BeneficiosPersonalizado>
                         </ContainerBeneficios>
                         <ContainerBeneficios>
-                            <Check source={require('../../assets/check.png')}/>
+                            <Check source={require('../../assets/images/check.png')}/>
                             <BeneficiosPersonalizado>Manutenção inclusa</BeneficiosPersonalizado>
                         </ContainerBeneficios>
                         <ContainerBeneficios>
-                            <Check source={require('../../assets/check.png')}/>
+                            <Check source={require('../../assets/images/check.png')}/>
                             <BeneficiosPersonalizado>Conteúdos exclusivos</BeneficiosPersonalizado>
                         </ContainerBeneficios>
                         <ContainerBeneficios>
-                            <Check source={require('../../assets/check.png')}/>
+                            <Check source={require('../../assets/images/check.png')}/>
                             <BeneficiosPersonalizado>Cancelamento fácil</BeneficiosPersonalizado>
                         </ContainerBeneficios>
                     </CardBeneficios>
@@ -105,19 +105,19 @@ export default function Ofertas() {
                     <Descricao>Óculos VR adaptado por assinatura</Descricao>
                     <CardBeneficiosMarrom>
                         <ContainerBeneficiosPersonalizados>
-                        <Check source={require('../../assets/check.png')}/>
+                        <Check source={require('../../assets/images/check.png')}/>
                         <BeneficiosPersonalizado>Escolha de cor e material</BeneficiosPersonalizado>
                         </ContainerBeneficiosPersonalizados>
                         <ContainerBeneficiosPersonalizados>
-                            <Check source={require('../../assets/check.png')}/>
+                            <Check source={require('../../assets/images/check.png')}/>
                             <BeneficiosPersonalizado>Filtros sensoriais adicionais</BeneficiosPersonalizado>
                         </ContainerBeneficiosPersonalizados>
                         <ContainerBeneficiosPersonalizados>
-                            <Check source={require('../../assets/check.png')}/>
+                            <Check source={require('../../assets/images/check.png')}/>
                             <BeneficiosPersonalizado>Ajustes anatômicos</BeneficiosPersonalizado>
                         </ContainerBeneficiosPersonalizados>
                         <ContainerBeneficiosPersonalizados>
-                            <Check source={require('../../assets/check.png')}/>
+                            <Check source={require('../../assets/images/check.png')}/>
                             <BeneficiosPersonalizado>Garantia de 12 meses</BeneficiosPersonalizado>
                         </ContainerBeneficiosPersonalizados>
                       

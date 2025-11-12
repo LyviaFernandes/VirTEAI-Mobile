@@ -37,11 +37,11 @@ export default function Home() {
             <CadastroContainer>
                 {/* Topo */}
                 <Navegacao>
-                    <Logo source={require('../../assets/virteailogo.png')}/>
-                    <Menu source={require('../../assets/menu.png')}/>
+                    <Logo source={require('../../assets/images/virteailogo.png')}/>
+                    <Menu source={require('../../assets/images/menu.png')}/>
                 </Navegacao>
 
-                <HomeImage source={require('../../assets/Personalizado.png')}/>
+                <HomeImage source={require('../../assets/images/Personalizado.png')}/>
 
                 {/* Relatos */}
                 <RelatosHome>Relatos</RelatosHome>
@@ -63,7 +63,7 @@ export default function Home() {
                     }}
                 >
                     <CardRelatoCliente>
-                        <ImageRelatos source={require('../../assets/MarianaS.png')}/>
+                        <ImageRelatos source={require('../../assets/images/MarianaS.png')}/>
                         <CardTextosRelatos>
                             <TextoClientes>
                                 Mariana S. - Mãe do Lucas (7 anos, TEA nível 2)
@@ -80,7 +80,7 @@ export default function Home() {
                     </CardRelatoCliente>
 
                     <CardRelatoCliente>
-                        <ImageRelatos source={require('../../assets/RafaelM.png')}/>
+                        <ImageRelatos source={require('../../assets/images/RafaelM.png')}/>
                         <CardTextosRelatos>
                             <TextoClientes>Rafael M. - Psicólogo infantil</TextoClientes>
                             <CardTextoClientes>
@@ -94,7 +94,7 @@ export default function Home() {
                     </CardRelatoCliente>
 
                     <CardRelatoCliente>
-                        <ImageRelatos source={require('../../assets/BeatrizL.png')}/>
+                        <ImageRelatos source={require('../../assets/images/BeatrizL.png')}/>
                         <CardTextosRelatos>
                             <TextoClientes>Beatriz L. - Estudante Universitária (21 anos, TEA nível 1)</TextoClientes>
                             <CardTextoClientes>
@@ -108,7 +108,7 @@ export default function Home() {
                     </CardRelatoCliente>
 
                     <CardRelatoCliente>
-                        <ImageRelatos source={require('../../assets/CarlosF.png')}/>
+                        <ImageRelatos source={require('../../assets/images/CarlosF.png')}/>
                         <CardTextosRelatos>
                             <TextoClientes>Carlos F. - Pai do Henrique (12 anos, TEA nível 3)</TextoClientes>
                             <CardTextoClientes>
@@ -121,7 +121,7 @@ export default function Home() {
                     </CardRelatoCliente>
 
                     <CardRelatoCliente>
-                        <ImageRelatos source={require('../../assets/JulioC.png')}/>
+                        <ImageRelatos source={require('../../assets/images/JulioC.png')}/>
                         <CardTextosRelatos>
                             <TextoClientes>Julio C. - Programador (Ansiedade social e TEA nível 1)</TextoClientes>
                             <CardTextoClientes>
@@ -140,19 +140,19 @@ export default function Home() {
                     <EmpresasParceiras>Empresas Parceiras</EmpresasParceiras>
                     <ContainerEmpresa>
                         <CardEmpresa>
-                            <EmpresaImage source={require('../../assets/aacdlogo.png')}/>
+                            <EmpresaImage source={require('../../assets/images/aacdlogo.png')}/>
                             <DescricaoEmpresas>Associação de assistência à criança deficiente</DescricaoEmpresas>
                         </CardEmpresa>
                         <CardEmpresa>
-                            <EmpresaImage source={require('../../assets/ama.png')}/>
+                            <EmpresaImage source={require('../../assets/images/ama.png')}/>
                             <DescricaoEmpresas>Associação de amigos do autista</DescricaoEmpresas>
                         </CardEmpresa>
                         <CardEmpresa>
-                            <EmpresaImage source={require('../../assets/ijc.png')}/>
+                            <EmpresaImage source={require('../../assets/images/ijc.png')}/>
                             <DescricaoEmpresas>Instituição Jô Clemente</DescricaoEmpresas>
                         </CardEmpresa>
                         <CardEmpresa>
-                            <EmpresaImage source={require('../../assets/lemda.png')}/>
+                            <EmpresaImage source={require('../../assets/images/lemda.png')}/>
                             <DescricaoEmpresas>Lar Mãe do Divino Amor</DescricaoEmpresas>
                         </CardEmpresa>
                     </ContainerEmpresa>

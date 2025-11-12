@@ -36,12 +36,14 @@ export const AcessoView = styled.View`
     margin-top: 202px;
     border-radius: 20px;
     elevation: 20;
+     font-family: "MarmeladRegular";
 
 `
 export const AcessoText = styled.Text`
     font-size: 30px;
     color: #000000ff;
     text-align: center;
+    font-family: "MarmeladRegular";
 
 `
 export const ContainerAcesso = styled.View`
@@ -68,16 +70,22 @@ export const ContinuarText = styled.Text`
     color: #ffffffff;
     text-align: center;
     margin-top: 6px;
+    font-family: "ComfortaaRegular";
+
 `
 export const Textinho = styled.Text`
     font-size: 14px;
     color: #000000ff;
     text-align: center;
     margin-top: 26px;
+    font-family: "ComfortaaRegular";
+
 `
 export const Termos = styled.Text`
     font-size: 14px;
     color: #ffffffff;
     text-align: center;
     margin-top: 5px;
+    font-family: "ComfortaaRegular";
+
 `

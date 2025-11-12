@@ -25,16 +25,16 @@ export default function SuaConta () {
         <AcessoConta>
                         {/* Topo */}
             <Navegacao>
-                <Logo source={require('../../assets/virteailogo.png')}/>
-                <Menu source={require('../../assets/menu.png')}/>
+                <Logo source={require('../../assets/images/virteailogo.png')}/>
+                <Menu source={require('../../assets/images/menu.png')}/>
                 </Navegacao>
                        
-                <TelaFundo source={require('../../assets/technologybackground.png')}>
+                <TelaFundo source={require('../../assets/images/technologybackground.png')}>
                 <AcessoView>
                     <AcessoText>Acesse sua conta </AcessoText>
                 </AcessoView>
                 <ContainerAcesso>
-                <Perfil source={require('../../assets/perfilicon.png')}/>
+                <Perfil source={require('../../assets/images/perfilicon.png')}/>
                 <ContainerContinuar>
                     <ContinuarText>Continuar</ContinuarText>
                 </ContainerContinuar>

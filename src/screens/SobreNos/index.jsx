@@ -9,13 +9,9 @@ import {
     ContainerNossoTime,
     ContainerPerfil,
     ContatoTitulo,
-    Footer, 
-    FooterColumn, 
-    FooterContact, 
-    Footerimg, 
     HomeImage,
+    InfoSac,
     Logo, 
-    LogoFooter, 
     Menu, 
     Navegacao, 
     ParagrafoMissao, 
@@ -26,7 +22,7 @@ import {
     RotuloSac, 
     SaqImages, 
     SobreNosContainer, 
-    TextFooter,
+    TextosSac,
     TituloSobrenos, 
 } from "./styles";
 
@@ -40,11 +36,11 @@ export default function SobreNos() {
             <SobreNosContainer>
                 {/* Topo */}
                 <Navegacao>
-                    <Logo source={require('../../assets/virteailogo.png')}/>
-                    <Menu source={require('../../assets/menu.png')}/>
+                    <Logo source={require('../../assets/images/virteailogo.png')}/>
+                    <Menu source={require('../../assets/images/menu.png')}/>
                 </Navegacao>
 
-                <HomeImage source={require('../../assets/timefoto.png')}/>
+                <HomeImage source={require('../../assets/images/timefoto.png')}/>
 
                 <TituloSobrenos>Sobre nós</TituloSobrenos>
                 <Paragrafos>
@@ -91,19 +87,19 @@ export default function SobreNos() {
                         </ParagrafoTime>   
                         <ContainerMulheres>
                             <ContainerPerfil>
-                            <PerfilCreators source={require('../../assets/Lyvia.png')}/>
+                            <PerfilCreators source={require('../../assets/images/Lyvia.png')}/>
                             <PerfilTexto>
                                 Desenvolvedora de código e escrita
                             </PerfilTexto>
                             </ContainerPerfil>
                             <ContainerPerfil>
-                                <PerfilCreators source={require('../../assets/ana.png')}/>
+                                <PerfilCreators source={require('../../assets/images/ana.png')}/>
                                 <PerfilTexto>
                                     Desenvolvedora de código e escrita
                                 </PerfilTexto>
                             </ContainerPerfil>
                             <ContainerPerfil>
-                                <PerfilCreators source={require('../../assets/ester.png')}/>
+                                <PerfilCreators source={require('../../assets/images/ester.png')}/>
                                 <PerfilTexto>
                                     Desenvolvedora de código e escrita
                                 </PerfilTexto>
@@ -112,13 +108,13 @@ export default function SobreNos() {
 
                         <ContainerHomens>
                             <ContainerPerfil>
-                                <PerfilCreators source={require('../../assets/valdir.png')}/>
+                                <PerfilCreators source={require('../../assets/images/valdir.png')}/>
                                 <PerfilTexto>
                                     Desenvolvedora de código e escrita
                                 </PerfilTexto>
                             </ContainerPerfil>
                             <ContainerPerfil>
-                                <PerfilCreators source={require('../../assets/yuri.png')}/>
+                                <PerfilCreators source={require('../../assets/images/yuri.png')}/>
                                 <PerfilTexto>
                                     Desenvolvedora de código e escrita
                                 </PerfilTexto>
@@ -129,15 +125,25 @@ export default function SobreNos() {
                     <ContainerContato>
                         <ContatoTitulo>Entre em contato</ContatoTitulo>
                         <CardSac>
-                            <SaqImages source={require('../../assets/emailiconsac.png')}/>
-                            <RotuloSac>Email</RotuloSac>
+                            <SaqImages source={require('../../assets/images/emailiconsac.png')}/>
+                            <TextosSac>
+                                <RotuloSac>Email</RotuloSac>
+                                <InfoSac>Envie dúvidas, sugestões ou propostas</InfoSac>
+                            </TextosSac>
                         </CardSac>
                         <CardSac>
-                            <SaqImages source={require('../../assets/socialmediaicon.png')}/>
-
+                            <SaqImages source={require('../../assets/images/socialmediaicon.png')}/>
+                                <TextosSac>
+                                <RotuloSac>Redes sociais</RotuloSac>
+                                <InfoSac>Nos acompanhe nas redes sociais!</InfoSac>
+                                </TextosSac>
                         </CardSac>
                         <CardSac>
-                            <SaqImages source={require('../../assets/faqicon.png')}/>
+                            <SaqImages source={require('../../assets/images/faqicon.png')}/>
+                                <TextosSac>
+                                    <RotuloSac>FAQ</RotuloSac>
+                                    <InfoSac>Dúvidas frequentes</InfoSac>
+                                </TextosSac>
                         </CardSac>
                     </ContainerContato>
 

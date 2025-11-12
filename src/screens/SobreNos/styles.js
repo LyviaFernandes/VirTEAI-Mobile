@@ -118,12 +118,19 @@ export const CardSac = styled.View`
     border-radius: 15px;
     elevation: 6px;
     margin-bottom: 20px;
+    flex-direction: row;
 `
+
 export const SaqImages = styled.Image`
 margin: 20px;
 `
+export const TextosSac = styled.View`
+`
 export const RotuloSac = styled.Text`
     font-size: 15px;
-    
-
+    margin-top: 10px;
+    margin-bottom:2px;
+`
+export const InfoSac = styled.Text`
+    font-size: 11px;
 `

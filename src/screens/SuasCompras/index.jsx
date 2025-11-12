@@ -21,11 +21,11 @@ export default function SuasCompras () {
             <OfertasContainer>
                 {/* Topo */}
                 <Navegacao>
-                    <Logo source={require('../../assets/virteailogo.png')}/>
-                    <Menu source={require('../../assets/menu.png')}/>
+                    <Logo source={require('../../assets/images/virteailogo.png')}/>
+                    <Menu source={require('../../assets/images/menu.png')}/>
                 </Navegacao>
 
-                <HomeImage source={require('../../assets/bagsicon.png')}/>
+                <HomeImage source={require('../../assets/images/bagsicon.png')}/>
 
                 <TituloCompras>Nenhuma Compra Pendente no Momento</TituloCompras>
                 <Button>
